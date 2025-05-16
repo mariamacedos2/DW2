@@ -4,14 +4,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border-radius: 13px;
 
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-style: normal;
+  /*Colocando sombra*/
+  box-shadow: 10px 30px 80px rgb(66, 0, 141);
 }
 
 body {
-  background: linear-gradient(to right, #233329, #41b883);
+  background: linear-gradient(to right, #ff9dea, #f8deff);
 }
 
 .grid-container {
@@ -28,7 +31,7 @@ body {
   font-size: 2rem;
   border: none;
   outline: none;
-  background-color: #111;
+  background-color: #c5a2ff;
   color: #eee;
 }
 .grid-container > button:hover {
@@ -37,7 +40,7 @@ body {
 }
 
 .grid-container > .operador {
-  background: #41b88375;
+  background: #a353ff;
 }
 
 .span-2 {
@@ -46,7 +49,7 @@ body {
 
 .grid-container > .display-container {
   grid-column: 1 / -1; /* ocupa todas as colunas. define onde começa e onde termina a coluna. */
-  background-color: #222;
+  background-color:  rgb(66, 0, 141);
 
   display: flex;
   flex-direction: column;
